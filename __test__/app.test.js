@@ -1,5 +1,5 @@
 import request from 'supertest'
-import app from '../app'
+import app from '../src/app'
 
 describe('Probar nuestro mini servidor de express', () => {
   test('Debe responder al método GET', done => {
